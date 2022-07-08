@@ -9,6 +9,6 @@ try:os.system('mkdir result')
 except:pass
 if __name__ == "__main__":
         try:
-                __import__("nitch")
+                __import__("nitch")lisensi()
         except Exception as e:
                 exit(str(e))
